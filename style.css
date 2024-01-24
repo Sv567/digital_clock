@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: linear-gradient(150deg, darkblue , lightblue);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color: rgb(251, 251, 252);
+    padding-bottom: 1rem;
+}
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   gap: 1rem;
+   padding: 2rem;
+   margin-left: 19px;
+
+}
+
+div > span {
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding: 1rem;
+    background-color: rgb(14, 74, 158);
+    color: #FFF;
+    font-family: fantasy;
+}
+
+div > p{
+    font-size: 13px;
+    padding-top: 1.5rem;
+    padding-bottom: 0.7rem;
+    background-color: rgb(128, 210, 242);
+    cursor: pointer;
+    font-family:serif;
+    font-weight: 550;
+    color: rgb(11, 11, 129);
+}
+
+#am-pm button {
+    padding: 0.4rem 0.7rem;
+    border: none;
+    background-color:rgb(128, 210, 242);
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 35px 0px;
+    color: rgb(11, 11, 129);
+    font-family:serif;
+
+}
+.content {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: flex-end;
+}
